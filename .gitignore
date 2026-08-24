@@ -1,0 +1,45 @@
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+
+# ================================
+# Java / Maven / Spring Boot
+# ================================
+target/
+*.class
+*.log
+
+# Spring Boot local configuration
+backend/src/main/resources/application.properties
+
+backend/src/main/resources/application-local.properties
+
+
+
+# ================================
+# Node.js / Vite / React
+# ================================
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Build / temporary files
+# ================================
+backend/build-err.log
+backend/build-out.log
+backend/build.log
