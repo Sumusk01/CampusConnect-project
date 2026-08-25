@@ -11,7 +11,6 @@ target/
 *.log
 
 # Spring Boot local configuration
-backend/src/main/resources/application.properties
 
 backend/src/main/resources/application-local.properties
 
