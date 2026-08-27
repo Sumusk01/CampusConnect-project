@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getStudents, deleteStudent } from '../api/students'
 import CreateStudentForm from '../components/CreateStudentForm'
 import EditStudentModal from '../components/EditStudentModal'
@@ -26,7 +26,7 @@ export default function StudentsPage() {
     load()
   }, [])
 
-  const handleCreated = (created: any) => {
+  const handleCreated = () => {
     // reload list from server to keep data consistent
     load()
   }
